@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "enziibuka",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authenziibuka4334c644",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
